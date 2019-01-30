@@ -13,5 +13,20 @@ for x in range(len(age)-1,0,-1):
             age[i+1] = temp_age
             names[i+1] = temp_name
 
+uniq_names = [0]
+
+for x in range(0, len(age)):
+	if age[x] not in age:
+		
+	else:
+		uniq_names.append(names[x])
+
 for x in range(0, len(age)):
     print(names[x], ' ', age[x])
+
+if len(uniq_names) == 1:
+	print(names[-1], 'старше всех')
+
+elif len(uniq_names) > 1:
+	print(uniq_names, 'старше')
+
