@@ -1,4 +1,4 @@
-names = ['Федос', 'Мыш', 'Ижанитов', 'Влад', 'Игорь', 'Ванесса', ]   # use this array for names 
+names = ['Андрей', 'Ваня', 'Алексей', 'Александр', 'Никита', 'Игорь', 'Миша']   # use this array for names 
 age = []
 
 for x in range(0, len(names)):
